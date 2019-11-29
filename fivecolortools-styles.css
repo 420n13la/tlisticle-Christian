@@ -1,0 +1,113 @@
+/**
+ TODO(you): Write the CSS necessary for fivecolortools.html
+*/
+*{box-sizing:border-box}
+html{
+    padding:20px;
+}
+
+body {
+    height:100%;
+    width:100%;
+}
+header{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    
+
+}
+#title{
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(images/header.png);
+    background-position:top 0px;
+    margin-left:-1%;
+    font-family:'Miriam Libre',sans-serif;
+    color:white;
+    font-size:17px;
+
+}
+#profile{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:'Alice',serif;
+}
+#profile img{
+    margin-top:-50px;
+height:100px;
+width:100px;
+border-radius:100%;
+border:solid 1px white;
+}
+#profile h3{
+    
+    font-size:33px;
+    font-weight:bold;
+    margin-top:-3px;
+}
+#update{
+    color:rgb(51,51,51);
+    margin-top:-23px;
+    font-size:17px;
+    font-style:italic;
+
+
+}
+h1{
+    text-align:center;
+    max-width:780px;
+}
+#wrapper img{
+    width:100%;
+}
+#wrapper{
+
+    width:66.6%;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-left:14.7%;
+    margin-right:auto;
+}
+h2{
+    font-weight:bold;
+    font-size: 45px;
+    font-family:'Zilla Slab Highlight',cursive;
+    color:rgb(51, 51, 51);
+}
+.number{
+    color:rgba(0, 0, 0, 0.25)
+}
+.section{
+    color:rgb(51, 51, 51);
+    font-family:'alice',serif;
+    font-size:23px;
+    margin-top:20px;
+    margin-bottom:120px;
+}
+.p1{
+    line-height:32px;
+}
+.section img{
+    display:flex;
+}
+.p2{
+    background-color:gold;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+a{
+    color:#42b4d6;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
